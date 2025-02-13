@@ -116,9 +116,7 @@ kernel=C:\\Users\\USERNAME\\vmlinux
 ```
 Now you can reset WSL with the new kenrel.
 
-## Using the SocketCAN modules in IFA Ros Dev Containers
-
-### On Host WSL
+### Using SocketCAN modules on host WSL
 
 If we are just running these modules on the host WSD system, we'll have to run the following commands every time we open the WSD terminal:
 
@@ -129,7 +127,7 @@ sudo modprobe vcan
 sudo modprobe slcan
 ```
 
-### On Dev Containers
+### Using SocetCAN in Dev Containers
 
 However, if we're using these modules for specific projects in the IFA ROS/ROS2 dev containers, we can paste the following lines into the `.devcontainer/initialize.sh` file in the project.
 
