@@ -127,7 +127,7 @@ sudo modprobe vcan
 sudo modprobe slcan
 ```
 
-### Using SocetCAN in Dev Containers
+### Using SocketCAN in Dev Containers
 
 However, if we're using these modules for specific projects in the IFA ROS/ROS2 dev containers, we can paste the following lines into the `.devcontainer/initialize.sh` file in the project.
 
