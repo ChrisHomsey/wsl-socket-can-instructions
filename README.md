@@ -4,7 +4,7 @@ This documentation is based on [https://gist.github.com/yonatanh20/664f07d62eb02
 
 Unfortunately, when using Microsoft's WSL Kernel, SocketCAN is not enabled by default. To enable SocketCAN's can-utils on WSL we need to enable the CAN interface module in the WSL, to do so requires a re-building of the WSL kernel.  
 
-Requirements:
+**Requirements:**
 * WSL2
 * back up your wsl image (optional) follow [here (wsl2-backup-and-restore-images)](https://www.virtualizationhowto.com/2021/01/wsl2-backup-and-restore-images-using-import-and-export/)
 Steps:
@@ -73,7 +73,7 @@ The config cli app will pop up and we need to enable the following settings.
 
 11. Save and exit.
 
-Here is a collection of screenshots for each of those submenus:
+<!-- Here is a collection of screenshots for each of those submenus:
 
 **Main Menu**
 
@@ -93,7 +93,7 @@ Here is a collection of screenshots for each of those submenus:
 
 **CAN USB interfaces**
 
-![Linux Kernel Configuration - CAN USB interfaces](https://github.com/innovation-for-automation/wsl-can-socket-instructions/blob/main/Kernel-Config-5.png?raw=true)
+![Linux Kernel Configuration - CAN USB interfaces](https://github.com/innovation-for-automation/wsl-can-socket-instructions/blob/main/Kernel-Config-5.png?raw=true) -->
 
 
 ## Step 3: Build and export our custom kernel
