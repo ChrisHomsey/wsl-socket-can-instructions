@@ -73,27 +73,27 @@ The config cli app will pop up and we need to enable the following settings.
 
 11. Save and exit.
 
-<!-- Here is a collection of screenshots for each of those submenus:
+Here is a collection of screenshots for each of those submenus:
 
 **Main Menu**
 
-![Linux Kernel Configuration](https://github.com/innovation-for-automation/wsl-can-socket-instructions/blob/main/Kernel-Config-1.png?raw=true)
+![Linux Kernel Configuration](https://raw.githubusercontent.com/Innovation-for-Automation/wsl-socket-can-instructions/refs/heads/main/images/Kernel-Config-1.png)
 
 **Network Support**
 
-![Linux Kernel Configuration - Network Support](https://github.com/innovation-for-automation/wsl-can-socket-instructions/blob/main/Kernel-Config-2.png?raw=true)
+![Linux Kernel Configuration - Network Support]https://raw.githubusercontent.com/Innovation-for-Automation/wsl-socket-can-instructions/refs/heads/main/images/Kernel-Config-2.png)
 
 **CAN bus subsystem support**
 
-![Linux Kernel Configuration - CAN bus subsystem support](https://github.com/innovation-for-automation/wsl-can-socket-instructions/blob/main/Kernel-Config-3.png?raw=true)
+![Linux Kernel Configuration - CAN bus subsystem support](https://raw.githubusercontent.com/Innovation-for-Automation/wsl-socket-can-instructions/refs/heads/main/images/Kernel-Config-3.png)
 
 **Can Device Drivers**
 
-![Linux Kernel Configuration - CAN Device Drivers](https://github.com/innovation-for-automation/wsl-can-socket-instructions/blob/main/Kernel-Config-4.png?raw=true)
+![Linux Kernel Configuration - CAN Device Drivers](https://raw.githubusercontent.com/Innovation-for-Automation/wsl-socket-can-instructions/refs/heads/main/images/Kernel-Config-4.png)
 
 **CAN USB interfaces**
 
-![Linux Kernel Configuration - CAN USB interfaces](https://github.com/innovation-for-automation/wsl-can-socket-instructions/blob/main/Kernel-Config-5.png?raw=true) -->
+![Linux Kernel Configuration - CAN USB interfaces](https://raw.githubusercontent.com/Innovation-for-Automation/wsl-socket-can-instructions/refs/heads/main/images/Kernel-Config-5.png)
 
 
 ## Step 3: Build and export our custom kernel
@@ -108,11 +108,11 @@ cp vmlinux /mnt/c/Users/[yourwindowsloginname]/
 
 The file vmlinux was created and now we will load it. 
 We need to create config file for wsl to load the custom kernel.
-Create the file `.wslconfig` in your Windows user folder C:/Users/<yourwindowsloginname>/ with the following content:
+Create the file `.wslconfig` in your Windows user folder C:/Users/[USERNAME]/ with the following content:
 
 ```conf
 [wsl2]
-kernel=C:\\Users\\<yourwindowsloginname>\\vmlinux
+kernel=C:\\Users\\USERNAME\\vmlinux
 ```
 Now you can reset WSL with the new kenrel.
 
