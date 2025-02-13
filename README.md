@@ -64,7 +64,7 @@ The config cli app will pop up and we need to enable the following settings.
 4. Enter **CAN Device Drivers**
 5. Change **Virtual Local CAN Interface** to `M`
 6. (Optional) Set any devices on this list to `M` if needed.
-    - We may be using the **PEAK-System PCAN-PCIe FD Cards** soon, so enable that.
+   - **PEAK-System PCAN-PCIe FD Cards**
 7. Change **Serial / USB serial CAN adapters** to `M` 
 8. Make sure CAN bit-timing calculation is set to *
 9. (Optional) Change CAN devices debugging messages to *
