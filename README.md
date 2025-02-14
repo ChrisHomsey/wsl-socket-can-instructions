@@ -32,7 +32,7 @@ This just means that WSL2 doesn't come with the CAN interface support enabled, s
 ## Step 2: Get the latest WSL2 kernel and configure it for can and vcan support. 
 
 ```bash
-sudo apt install build-essential flex bison libssl-dev libelf-dev libncurses-dev bc
+sudo apt install build-essential flex bison libssl-dev libelf-dev libncurses-dev bc dwarves
 cd ~
 git clone https://github.com/microsoft/WSL2-Linux-Kernel
 cd WSL2-Linux-Kernel
@@ -103,7 +103,7 @@ make modules
 sudo make modules_install
 make -j $(nproc)
 sudo make install
-cp vmlinux /mnt/c/Users/[yourwindowsloginname]/
+cp vmlinux /mnt/c/Users/[USERNAME]/
 ```
 
 The file vmlinux was created and now we will load it. 
