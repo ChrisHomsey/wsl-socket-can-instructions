@@ -81,7 +81,7 @@ Here is a collection of screenshots for each of those submenus:
 
 **Network Support**
 
-![Linux Kernel Configuration - Network Support]https://raw.githubusercontent.com/Innovation-for-Automation/wsl-socket-can-instructions/refs/heads/main/images/Kernel-Config-2.png)
+![Linux Kernel Configuration - Network Support](https://raw.githubusercontent.com/Innovation-for-Automation/wsl-socket-can-instructions/refs/heads/main/images/Kernel-Config-2.png)
 
 **CAN bus subsystem support**
 
