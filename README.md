@@ -123,6 +123,7 @@ If we are just running these modules on the host WSD system, we'll have to run t
 ```bash
 sudo modprobe can
 sudo modprobe can-raw
+sudo modprobe pcan
 sudo modprobe vcan
 sudo modprobe slcan
 ```
@@ -135,6 +136,7 @@ However, if we're using these modules for specific projects in the IFA ROS/ROS2 
 sudo apt install kmod
 sudo modprobe can
 sudo modprobe can-raw
+sudo modprobe pcan
 sudo modprobe vcan
 sudo modprobe slcan
 ```
